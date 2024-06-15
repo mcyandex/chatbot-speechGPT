@@ -36,7 +36,7 @@ You can utilize this app to improve your language speaking skills or simply have
 1. Set the OpenAI API Key <br/>
     - Go to Settings and navigate to the Chat section.
     - Set the OpenAI API Key.
-    - If you don't have an OpenAI API Key, follow this tutorial on [how to get an OpenAI API Key](https://www.windowscentral.com/software-apps/how-to-get-an-openai-api-key).
+    - If you don't have an OpenAI API Key, follow this tutorial on [how to get an OpenAI API Key].
 2. Set up Azure Speech Services (optional)
     - Go to Settings and navigate to the Synthesis section.
     - Change the Speech Synthesis Service to Azure TTS.
@@ -45,16 +45,13 @@ You can utilize this app to improve your language speaking skills or simply have
     - Go to Settings and navigate to the Synthesis section.
     - Change the Speech Synthesis Service to Amazon Polly.
     - Set the AWS Region, AWS Access Key ID, and Secret Access Key (the Access Key should have the AmazonPollyFullAccess policy).
-    - If you don't have an AWS Access Key, follow this tutorial on [how to create an IAM user in AWS](https://www.techtarget.com/searchcloudcomputing/tutorial/Step-by-step-guide-on-how-to-create-an-IAM-user-in-AWS).
+    - If you don't have an AWS Access Key, follow this tutorial on [how to create an IAM user in AWS].
 
 ## 💻 Development Guide and Changelog
 - For more information on setting up your development environment, please see our [Development Guide](./docs/developer-guide.md).
 - To view the project's history of notable changes, please check the [Changelog](./CHANGELOG.md).
 
 ## 🚢 Deployment
-
-### Deploying with Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhahahumble%2Fspeechgpt&env=VITE_OPENAI_API_KEY,VITE_OPENAI_HOST,VITE_AWS_REGION,VITE_AWS_ACCESS_KEY_ID,VITE_AWS_ACCESS_KEY,VITE_AZURE_REGION,VITE_AZURE_KEY&envDescription=If%20you%20do%20not%20want%20to%20provide%20a%20value%2C%20use%20REPLACE_WITH_YOUR_OWN.&project-name=speechgpt&repository-name=speechgpt)
 
 ###  Deploying with Docker
 1. Pull the Docker image:arm64.
